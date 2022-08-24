@@ -22,7 +22,7 @@ class LabTest_2():
         time.sleep(2)
 
         email = driver.find_element(By.ID, 'email_create')
-        email.send_keys("romanacsediu@gmail.com")
+        email.send_keys("romanacsediu22@gmail.com")
 
         createaccountBtn = driver.find_element(By.CSS_SELECTOR, '#SubmitCreate > span')
         createaccountBtn.click()
@@ -32,11 +32,11 @@ class LabTest_2():
         title.click()
 
         fname = driver.find_element(By.ID, 'customer_firstname')
-        fname.send_keys("Faria")
+        fname.send_keys("Fariha")
         time.sleep(2)
 
         lname = driver.find_element(By.ID, 'customer_lastname')
-        lname.send_keys("Rahman")
+        lname.send_keys("Aktar")
         time.sleep(2)
 
         apassword = driver.find_element(By.ID, 'passwd')
@@ -60,7 +60,7 @@ class LabTest_2():
         time.sleep(2)
 
         phone = driver.find_element(By.ID, 'phone_mobile')
-        phone.send_keys("+880 1533733274")
+        phone.send_keys("+880 1792991015")
         time.sleep(2)
 
         register = driver.find_element(By.CSS_SELECTOR, '#submitAccount > span')
@@ -74,7 +74,7 @@ class LabTest_2():
         # Sign in to the Website
 
         email = driver.find_element(By.NAME, 'email')
-        email.send_keys("romanacsediu@gmail.com")
+        email.send_keys("romanacsediu22@gmail.com")
         password = driver.find_element(By.NAME, 'passwd')
         password.send_keys("abcdefgh")
 
